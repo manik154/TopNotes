@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference
+            android:title="@string/night_mode"
+            android:summaryOn="@string/night_mode_on_summary"
+            android:summaryOff="@string/night_mode_off_summary"
+            android:defaultValue="false"
+            android:icon="@drawable/night_icon"
+            android:key="@string/night_mode_pref_key"
+            />
+        <EditTextPreference
+            android:title="@string/application_version"
+            android:icon="@drawable/application_verison"
+            android:defaultValue="@string/application_version2"
+            />
+
+</PreferenceScreen>
